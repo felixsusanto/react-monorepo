@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import CompButton from '@project/comp-button';  
 function App() {
   return (
     <div className="App">
@@ -17,6 +17,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          <CompButton>FooBar</CompButton>
         </a>
       </header>
     </div>
